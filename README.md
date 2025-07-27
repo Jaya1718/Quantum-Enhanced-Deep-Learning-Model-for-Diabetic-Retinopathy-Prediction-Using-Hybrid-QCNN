@@ -1,1 +1,1 @@
-# Quantum-Enhanced-Deep-Learning-Model-for-Diabetic-Retinopathy-Prediction-Using-Hybrid-QCNN
+# Quantum-Enhanced-Deep-Learning-Model-for-Diabetic-Prediction-Using-Hybrid-QCNN
