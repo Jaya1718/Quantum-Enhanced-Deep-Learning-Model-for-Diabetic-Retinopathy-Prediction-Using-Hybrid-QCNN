@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diabetic Retinopathy Checker</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; background-color: #f0f8ff; }
+    form { margin: auto; width: 300px; }
+    input { margin: 10px; padding: 10px; width: 90%; }
+    .btn { background: #4CAF50; color: white; border: none; padding: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>🧬 DR Risk Detection</h1>
+  <form method="POST">
+    <input type="text" name="blood_sugar" placeholder="Blood Sugar Level" required><br>
+    <input type="text" name="blood_pressure" placeholder="Blood Pressure" required><br>
+    <input type="text" name="vision_score" placeholder="Vision Test Score" required><br>
+    <input type="text" name="age" placeholder="Age" required><br>
+    <button class="btn" type="submit">Check</button>
+  </form>
+  <h2>{{ prediction }}</h2>
+</body>
+</html>
